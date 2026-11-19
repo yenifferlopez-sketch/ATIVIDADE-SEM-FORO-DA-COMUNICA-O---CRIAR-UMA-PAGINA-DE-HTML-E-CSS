@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semáforo da Comunicação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="container">
+      <h1>🚦 Semáforo da Comunicação</h1>
+      <p>Guia visual de boas e más práticas de comunicação em interfaces web.</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Legenda de navegação rápida (Cor + Símbolo + Texto) -->
+    <nav class="legenda" aria-label="Categorias do semáforo">
+      <a href="#verde" class="legenda-item verde">🟢 VERDE – Boas práticas</a>
+      <a href="#amarelo" class="legenda-item amarelo">🟡 AMARELO – Cuidado</a>
+      <a href="#vermelho" class="legenda-item vermelho">🔴 VERMELHO – Evitar</a>
+    </nav>
+
+    <!-- CATEGORIA 1: VERDE (5 CARDS) -->
+    <section id="verde" class="secao-categoria" aria-labelledby="titulo-verde">
+      <h2 id="titulo-verde" class="titulo-secao titulo-verde">🟢 VERDE – Boas práticas</h2>
+      <div class="grid-cards">
+
+        <article class="card card-verde">
+          <span class="etiqueta etiqueta-verde">🟢 Boa prática • #01</span>
+          <h3>Textos claros e objetivos</h3>
+          <p>Use frases curtas e diretas para facilitar a leitura rápida e evitar dúvidas.</p>
+        </article>
+
+        <article class="card card-verde">
+          <span class="etiqueta etiqueta-verde">🟢 Boa prática • #02</span>
+          <h3>Botões com ações explícitas</h3>
+          <p>Prefira rótulos claros como "Salvar cadastro" em vez de textos vagos como "OK".</p>
+        </article>
+
+        <article class="card card-verde">
+          <span class="etiqueta etiqueta-verde">🟢 Boa prática • #03</span>
+          <h3>Alto contraste visual</h3>
+          <p>Garanta forte contraste entre a cor da letra e o fundo para leitura confortável.</p>
+        </article>
+
+        <article class="card card-verde">
+          <span class="etiqueta etiqueta-verde">🟢 Boa prática • #04</span>
+          <h3>Mensagens de erro instrutivas</h3>
+          <p>Explique o que aconteceu e oriente o usuário sobre como corrigir o problema.</p>
+        </article>
+
+        <article class="card card-verde">
+          <span class="etiqueta etiqueta-verde">🟢 Boa prática • #05</span>
+          <h3>Hierarquia bem definida</h3>
+          <p>Organize títulos e subtítulos em ordem lógica para guiar a atenção na tela.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CATEGORIA 2: AMARELO (5 CARDS) -->
+    <section id="amarelo" class="secao-categoria" aria-labelledby="titulo-amarelo">
+      <h2 id="titulo-amarelo" class="titulo-secao titulo-amarelo">🟡 AMARELO – Cuidado</h2>
+      <div class="grid-cards">
+
+        <article class="card card-amarelo">
+          <span class="etiqueta etiqueta-amarelo">🟡 Cuidado • #06</span>
+          <h3>Siglas e termos técnicos</h3>
+          <p>Evite jargões sem explicação, pois usuários iniciantes podem não compreender.</p>
+        </article>
+
+        <article class="card card-amarelo">
+          <span class="etiqueta etiqueta-amarelo">🟡 Cuidado • #07</span>
+          <h3>Ícones sem texto de apoio</h3>
+          <p>Símbolos isolados podem gerar dúvidas; sempre que possível, inclua um rótulo.</p>
+        </article>
+
+        <article class="card card-amarelo">
+          <span class="etiqueta etiqueta-amarelo">🟡 Cuidado • #08</span>
+          <h3>Blocos de texto muito longos</h3>
+          <p>Parágrafos extensos cansam a leitura; divida o conteúdo em tópicos menores.</p>
+        </article>
+
+        <article class="card card-amarelo">
+          <span class="etiqueta etiqueta-amarelo">🟡 Cuidado • #09</span>
+          <h3>Animações em excesso</h3>
+          <p>Elementos piscando ou em movimento contínuo distraem e causam desconforto.</p>
+        </article>
+
+        <article class="card card-amarelo">
+          <span class="etiqueta etiqueta-amarelo">🟡 Cuidado • #10</span>
+          <h3>Links como "Clique aqui"</h3>
+          <p>Descreva o destino do link para ajudar quem navega com leitores de tela.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CATEGORIA 3: VERMELHO (5 CARDS) -->
+    <section id="vermelho" class="secao-categoria" aria-labelledby="titulo-vermelho">
+      <h2 id="titulo-vermelho" class="titulo-secao titulo-vermelho">🔴 VERMELHO – Evitar</h2>
+      <div class="grid-cards">
+
+        <article class="card card-vermelho">
+          <span class="etiqueta etiqueta-vermelho">🔴 Evitar • #11</span>
+          <h3>Informação apenas por cor</h3>
+          <p>Nunca use só a cor para alertar; combine sempre com ícones e textos claros.</p>
+        </article>
+
+        <article class="card card-vermelho">
+          <span class="etiqueta etiqueta-vermelho">🔴 Evitar • #12</span>
+          <h3>Fontes pequenas ou ilegíveis</h3>
+          <p>Letras muito reduzidas ou decorativas dificultam a compreensão da interface.</p>
+        </article>
+
+        <article class="card card-vermelho">
+          <span class="etiqueta etiqueta-vermelho">🔴 Evitar • #13</span>
+          <h3>Baixo contraste de leitura</h3>
+          <p>Texto cinza claro sobre fundo branco torna o conteúdo quase invisível na tela.</p>
+        </article>
+
+        <article class="card card-vermelho">
+          <span class="etiqueta etiqueta-vermelho">🔴 Evitar • #14</span>
+          <h3>Pop-ups invasivos</h3>
+          <p>Janelas que bloqueiam a navegação interrompem o usuário e geram frustração.</p>
+        </article>
+
+        <article class="card card-vermelho">
+          <span class="etiqueta etiqueta-vermelho">🔴 Evitar • #15</span>
+          <h3>Mensagens que culpam o usuário</h3>
+          <p>Evite frases rudes como "Você digitou errado"; mantenha um tom acolhedor.</p>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>Semáforo da Comunicação • Projeto de Interfaces Acessíveis (2026)</p>
+    </div>
+  </footer>
+
+</body>
+</html>
